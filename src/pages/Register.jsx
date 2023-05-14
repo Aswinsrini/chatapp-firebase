@@ -67,7 +67,7 @@ export default function Register() {
           <span className="logo">AS_Creation Chat </span>
           <span className="title">Register </span>
           <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="Dispaly Name" required />
+            <input type="text" placeholder="Display Name" required />
             <input type="email" placeholder="Email" required />
             <input type="password" placeholder="Password" required />
             <input type="file" id="file" style={{ display: "none" }} />
