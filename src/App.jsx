@@ -13,7 +13,7 @@ function App() {
   };
   // console.log(currentUser);
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="chatapp-firebase/">
       <Routes>
         <Route path="/">
           <Route
