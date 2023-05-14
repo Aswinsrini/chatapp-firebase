@@ -13,7 +13,7 @@ function App() {
   };
   // console.log(currentUser);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/">
           <Route
